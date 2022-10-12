@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Provider } from 'react-redux';
 import { useAppDispatch, useAppSelector } from './hooks/redux';
 import { fetchUsers } from './store/reducers/ActionCreators';
 import { setupStore } from './store/store';
